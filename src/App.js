@@ -21,6 +21,7 @@ function App() {
       onChange={e=> setQuery(e.target.value)}
       />
        <Table data={search(Users)}/>
+      
     </div>
   );
 }
